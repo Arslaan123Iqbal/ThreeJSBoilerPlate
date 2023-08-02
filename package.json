@@ -4,15 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx parcel index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@parcel/config-default": "^2.8.3",
-    "gsap": "^3.11.4",
-    "lil-gui": "^0.18.0"
+    "gsap": "^3.12.2",
+    "lil-gui": "^0.18.0",
+    "three": "^0.155.0"
   },
   "devDependencies": {
     "@parcel/transformer-glsl": "^2.8.3"
